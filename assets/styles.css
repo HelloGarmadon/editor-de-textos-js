@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(151, 151, 151);
+}
+
+header{
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid rgb(148, 148, 148);
+    background-color: rgb(197, 197, 197);
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+    margin-top: 5%;
+    border: 1px solid gray;
+    padding: 20px 0px;
+}
+
+.menu .btn button {
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #e3e3;
+    margin-right: 30px;
+    width: 50px;
+    height: 40px;
+    text-decoration: none;
+    background: none;
+    cursor: pointer;
+}
+
+.btn-last button {
+    color: #ffffff;
+    font-size: 20px;
+    border: 1px solid #e3e3;
+    width: 50px;
+    height: 40px;
+    text-decoration: none;
+    background: none;
+    margin-right: 0px;
+    cursor: pointer;
+}
+
+.text-container{
+    border: 2px solid gray;
+    padding: 5px;
+    width: 532px;
+    min-height: 500px;
+}
+.text-container textarea{
+    width: 100%;
+    min-height: 500px;
+}
+
+.Save-pdf-button{
+    background-color: rgb(30, 197, 30);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 30px;
+}
+
+textarea{
+    outline-style: none;
+    padding: 10px;
+}
