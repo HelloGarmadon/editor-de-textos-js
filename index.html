@@ -9,23 +9,29 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js" integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/" crossorigin="anonymous"></script>
 </head>
 <body>
+
     <header>
         <h1>Editor de textos</h1>
     </header>
+    <section id="container">
+   
 
     <Div class="menu">
-        <div class="btn"><button>N</button></div>
-        <div class="btn"><button>A</button></div>
-        <div class="btn"><button>a</button></div>
-        <div class="btn"><button>dir</button></div>
-        <div class="btn"><button>esq</button></div>
-        <div class="btn"><button>cent</button></div>
-        <div class="btn-last"><button>Aa</button></div>
+        <div id="negrito" class="btn N"><button>N</button></div>
+        <div id="maiusculo" class="btn A"><button>A</button></div>
+        <div id="minusculo" class="btn a"><button>a</button></div>
+        <div id="direita" class="btn dir"><button>dir</button></div>
+        <div id="esquerda" class="btn esq"><button>esq</button></div>
+        <div id="centro" class="btn cent"><button>cent</button></div>
+        <div id="auternado" class="btn-last"><button>Aa</button></div>
     </Div>
     <div  class="text-container">
         <textarea id="text-area" name="text-area" ></textarea>
     </div>
-    <button class="Save-pdf-button" onclick="gerarpdf()">Save PDF</button>
+    
+
+</section>
+<button class="Save-pdf-button" onclick="gerarpdf()">Save PDF</button>
     <script src="./script.js"></script>
 </body>
 </html>
